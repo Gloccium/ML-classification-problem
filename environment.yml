@@ -1,0 +1,25 @@
+name: titanic-ml
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+  - pip
+  - llvm-openmp
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - seaborn
+      - torch
+      - omegaconf
+      - joblib
+      - xgboost
+      - catboost
+      - optuna
+      - shap
+      - kaggle
+      - jupyterlab
+      - ipykernel
